@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.almworks.testy</groupId>
   <artifactId>swagger-ui</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>Swagger UI for JIRA</name>
   <description>Swagger UI adopted for JIRA</description>
@@ -11,7 +11,7 @@
     <connection>scm:git:git@github.com:dyoma/swagger-ui.git</connection>
     <url>https://github.com/dyoma/swagger-ui</url>
     <developerConnection>scm:git:git@github.com:dyoma/swagger-ui.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>swagger-ui-1.0.0</tag>
   </scm>
 
   <licenses>
@@ -50,7 +50,7 @@
             <phase>clean</phase>
             <configuration>
               <tasks> <!-- Provides resources for BaseRestBrowser subclases -->
-                <delete dir="dist"/>
+                <delete dir="dist" />
               </tasks>
             </configuration>
             <goals>
