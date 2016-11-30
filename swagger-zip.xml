@@ -8,6 +8,7 @@
   <fileSets>
     <fileSet>
       <directory>dist</directory>
+      <outputDirectory>/</outputDirectory> <!-- set the root of the output ZIP: put the content of the directory to the root of the archive -->
     </fileSet>
   </fileSets>
 </assembly>
